@@ -56,7 +56,7 @@
       </div>
     </section>
 
-    
+    <!-- 좌측 파란색 공간 -->
     <section id="accounts-content">
       
   <div class="container-fluid">
@@ -108,8 +108,8 @@
           
 
 <form action="https://shiftee.io/ko/accounts/register" method="POST" id="sft-熆⧲눐ꅟ朤猴">
-  
-            <div class="">
+  <!-- 회원 정보 입력 -->
+	<div class="">
             
 
 <div class="control-group form-group">
@@ -122,7 +122,7 @@
 </div>
 
 
- 			</div>
+	</div>
 <div class="control-group form-group">
   <div class="controls">
     
@@ -134,9 +134,7 @@
   </div>
 </div>
 
-
-
-            
+          
 
 <div class="control-group form-group">
   <div class="controls">
@@ -180,7 +178,7 @@
 <div class="control-group form-group">
   <div class="controls">
     
-                <label for="phone-number">전화번호 (선택)</label>
+                <label for="phone-number">전화번호</label>
                 <input type="tel" class="form-control" id="phone_number" name="phone_number">
               
     
@@ -191,48 +189,151 @@
 </div>
 
 </div>
-<div class="controls">
+	<div class="controls">
 
               <label for="email-address">이메일</label>
               <input type="email" class="form-control" id="email-address" name="email" value="">
-  </div>
+    </div>
+    <div class="controls">
+
+              <label for="gen">성별</label>
+              <select class="form-control" id="gen" name="gen" value="gen">
+              	<option>선택하세요</option>
+              	<option id="male">남</option>
+              	<option id="fmale">여</option>
+              </select>
+    </div>
+    
+    <div class="controls">
+
+              <label for="birthday">생년월일</label>
+              <input type="date" class="form-control" id="birthday" name="birthday" value="">
+    </div>
 
             <input id="sft-first-name-input" class="form-control d-none" type="text" name="first_name">
             <input id="sft-last-name-input" class="form-control d-none" type="text" name="last_name">
 
 
 			<div class="row sft-terms-and-privacy-agreement-container">
-			  <label>관심 장르</label>
+			  <label>관심 장르(국내도서)</label>
 			</div>
             <div class="row sft-terms-and-privacy-agreement-container">
               <input type="checkbox" id="sft-terms-and-privacy-agreement">
               <p class="gangre">소설</p>
 			  <input type="checkbox" id="sft-terms-and-privacy-agreement">
-              <p class="gangre">문학</p>
+              <p class="gangre">시/에세이</p>
 			  <input type="checkbox" id="sft-terms-and-privacy-agreement">
-              <p class="gangre">시</p>
+              <p class="gangre">예술/대중문화</p>
 			  <input type="checkbox" id="sft-terms-and-privacy-agreement">
-              <p class="gangre">사전</p>
+              <p class="gangre">사회과학</p>
 			  <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">역사와문화</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">잡지</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
               <p class="gangre">만화</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">유아</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">아동</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">가정과생활</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">청소년</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">초등학습서</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">고등학습서</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">국/외국어/사전</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">자연과 과학                </p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">경제경영</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">자기개발</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">인문</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">종교/역학</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">컴퓨터/인터넷</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">자격서/수험서</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">취미/레져</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">전공/대학도서</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">건강/뷰티</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">여행</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">중등학습서</p>
+              
             </div>
+            <div class="row sft-terms-and-privacy-agreement-container">
+			  <label>관심 장르(해외도서)</label>
+			</div>
+			<div class="row sft-terms-and-privacy-agreement-container">
+			<input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">어린이</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">ELT/사전</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">문학</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">경영/인문</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">예술/디자인</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">실용</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">해외잡지</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">대학/전문서적</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">컴퓨터</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">일본도서</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">프랑스도서</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">중국도서</p>
+              <input type="checkbox" id="sft-terms-and-privacy-agreement">
+              <p class="gangre">해외주문원서</p>
+			</div>
+			
+			<div class="controls">
 
+              <label for="introduce">간단소개</label>
+              <textarea rows="10" cols="50" class="form-control" id="introduce" name="introduce" value="introduce">
+             	
+              </textarea>
+    </div>
+
+			<div class="row sft-terms-and-privacy-agreement-container">
+			  <label>관심분야 공개여부</label>
+			</div>
+			<div class="row sft-terms-and-privacy-agreement-container">
+				<input>
+			</div>
+			
             <button disabled="" class="btn btn-primary btn-block" id="sft-register-button" type="submit" data-track-click="register">
             가입하기
             </button>
 
          
+</form>
             </div>
           
-</form>
 
-<script type="text/javascript" async="" src="./img/mixpanel-2-latest.min.js.다운로드"></script><script async="" src="./img/wcslog.js.다운로드"></script><script src="./img/194173318348304" async=""></script><script async="" src="./img/fbevents.js.다운로드"></script><script async="" src="./img/analytics.js.다운로드"></script><script async="" src="./img/default" charset="UTF-8" crossorigin="*"></script><script>
- 
-</script>
+
+
         </div>
       </div>
     </div>
-  </div>
+  
 
     
 
